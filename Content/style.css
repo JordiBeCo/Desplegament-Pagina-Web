@@ -1,0 +1,450 @@
+﻿body {
+    background-color: #262626;
+}
+.separador {
+    width: 100%;
+    height: 50px;
+}
+#navbarstyle {
+    background-color: #045A7F;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white !important;
+}
+
+.navbar-inverse .navbar-brand {
+    margin-left: 33px !important;
+}
+
+#div_act_pregunta {
+    background-color: dimgray;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.logoNavbar {
+    margin-left: 15px;
+    margin-right:25px;
+    background: url(../Content/Images/apcatPetitGris.png) no-repeat top left;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+
+.menuSup {
+    background-color: #045a7f;
+}
+
+li:hover {
+    background-color: #26617F;
+}
+
+#textofaq {
+    text-align: center;
+    font-size: 25px;
+    background-color: #045a7f;
+    border-radius: 5px;
+    border: solid 2px black;
+    color: white;
+    margin-top: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.mundo1 {
+    margin-right: 30px;
+}
+
+.mundo2 {
+    margin-left: 30px;
+}
+
+.texto1 {
+    border: solid 2px black;
+    margin-bottom: 5px;
+    background-color: #045a7f;
+    padding: 20px;
+    text-align: justify;
+    color:white;
+}
+
+.contacto {
+    margin-bottom: 5px;
+    color: white;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.foto {
+    background-color: #999999;
+    border: solid 2px black;
+}
+
+.imglogo {
+    width: 100%;
+    height: 100%;
+}
+
+.suelo {
+   position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #3D3D3C;
+    color: white;
+    text-align: center;
+}
+
+#marcador_encerts {
+    background-color: #b53d00;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 8%;
+    width: auto;
+    text-align: center;
+}
+
+#barraProgress {
+margin-top:10px;
+}
+
+.numero {color: #6281CC;}
+.nombre {color: #FF746C;}
+.email {color:#CCC03C;}
+.calle {color:#CC732E;}
+.indextitulo {color:#428bca !important}
+
+#div_act_pregunta {
+    background-color: #FF750D;
+}
+
+.div_blanc {
+    margin-left: 2%;
+    width: 50%
+}
+
+#h3Comarca, #h4Comarca, #h4Capital {
+    display: flex;
+    height:45px;
+}
+
+#h4style {
+    border: 2px solid black;
+    background-color: white;
+    padding: 1px;
+    width: 100%;
+}
+
+#percentatjeProgress {
+    color: black;
+    
+}
+
+.progress {
+    position: relative;
+}
+
+.progress span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        color: black;
+}
+
+.div_blanc_repas {
+    margin-left: 2%;
+    width: 75%;
+
+}
+
+
+.imageActivitat{
+    width:auto;
+}
+
+.imageActivitatDins {
+    width:100%;
+}
+
+.textActivitat {
+    width: 100%;
+    height: 100%;
+}
+
+.cosActivitat {
+    display:flex;
+    align-items:center;
+    text-align:justify;
+}
+
+.footer {
+    width:100%;
+    height:20px;
+}
+
+.botoActivitat {
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    padding-top: 14px;
+    background-color: #363a7f;
+    border-color: #363a7f;
+    color:white;
+    margin: 2px;
+}
+
+.btn-default:hover {
+    background-color: #43467F !important;
+    border-color: #43467F !important;
+    color: white;
+}
+
+
+.con-resultados {
+    background-color: transparent !important;
+}
+
+
+.top {
+    display: flex;
+    flex-direction:column;
+}
+
+.tops {
+    display: flex;
+    margin: 5px;
+}
+
+.imagen {
+    width: 30%;
+    height:100%;
+    margin-top: 5px;
+}
+
+.infoganador {
+    width:100%;
+    height:100%;
+}
+
+.imagenpos {
+    width: 100%;
+    height: auto;
+}
+
+.nombreuser {width: 100%;}
+.nota {width: 100%;}
+.fecha {width: 100%;}
+
+.cuadradosinfo {
+    display:flex;
+    height: auto;
+    font-size: 12px;
+    color:white;
+}
+
+.clasedetallada {width: 100%;}
+
+.actividadinfo {
+    color:white;
+    text-align:center;
+}
+
+.styleinfo {
+    text-align:center;
+}
+
+.styletitulo {
+    background-color: #363A7F;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2px 2px 2px 5px;
+}
+
+.intuitivo {
+    color:white;
+    text-align:center;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.resultados {
+    display:flex;
+    flex-direction:column;
+    color:white;
+}
+
+.tituloresul {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 15px;
+}
+
+.minititulo {
+    width: 100%;
+    text-align: center;
+    background-color: #363A7F;
+    margin: 1px;
+}
+
+.inforesul {
+    width: 100%;
+    height: 100%;
+
+}
+
+.infogrande {
+    display:flex;
+}
+
+.miniinfo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+    background-color: white;
+    margin: 1px;
+}
+
+.llistaIndex {
+    background-color:#262626;
+    color:white;
+    text-align:center;
+}
+
+.logoIndex {
+    margin:auto;
+    width:300px;
+}
+
+#bodyModal{
+    background-color: #262626;
+    border-radius: 15px 15px 15px 15px;
+    margin: 3%;
+    color: white;
+}
+
+
+
+.mapaCatalunya {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.informacioMapa {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.infoMapa {
+    display:flex;
+}
+
+#mapaDins {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.topActivitats {
+    display:flex;
+}
+
+#escriuCapital {
+    color: black;
+    text-align:center !important;
+}
+
+.alert-success {
+    text-align: center;
+    background-color:lightgreen;
+    border: 3px solid black;
+}
+
+.alert-danger {
+    text-align: center;
+    background-color: indianred;
+    border: 3px solid black;
+    color: black;
+}
+
+.escollirCapital {
+    background-color: #FF750D;
+    color: black;
+    border: 2px solid black;
+    width:30%;
+}
+
+.escollirCapital:hover {
+    background-color: #FF8F0D;
+}
+
+
+.divproces {
+    background-color: #FF750D;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.from-search {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.boton-search {
+    background-color: #363A7F !important;
+    border: solid 1px black;
+}
+
+
+#divMapa {
+    height: 450px;
+}
+
+.panelrespuesta {
+    background-color: #FF750D;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.posicion {
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.posicionnick {
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttonComprovar {
+    width:100% !important;
+}
+
+.containerlogo {
+   text-align:center;
+}
+
+.imagelogo1 {
+    height: 40px;
+    width:70px;
+    margin: 5px;
+}
+
+.imagelogo2 {
+    height: 40px;
+    width: 45px;
+    margin: 5px;
+}
